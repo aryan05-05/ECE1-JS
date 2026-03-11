@@ -41,8 +41,35 @@ console.log("Welcome to JavaScript");
 //     console.log("person details:"+x+":"+person[x])
 // }
 
-let y=0;
-while(y<10){
-    console.log(x);
-    y++;
+// let y=0;
+// while(y<10){
+//     console.log(x);
+//     y++;
+// }
+
+function add(a,b){
+    console.log(a+b);
 }
+add(10,20);
+//arrow function
+var add2=(a,b)=>{
+    console.log(a+b);
+}
+add2(30,40);
+var person={
+    name: 'JOHN MAC',
+    age: 30,
+    isMarried:true,
+    address:{
+        street:'cadgg'
+    }
+}
+console.log(person)
+var person2=new Object();
+person2.name='Aryan Gupta';
+person2.age=19;
+person2.isMarried=false;
+person2.address={};
+person2.address.street="road";
+person2['address']['flatNo']=33;
+console.log(person2)

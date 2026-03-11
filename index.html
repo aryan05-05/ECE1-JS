@@ -8,19 +8,30 @@
 <body>
     <script src="./script.js"></script>
     <script type="text/javascript">
-        var count;
-        document.write("starting count: " + count + "<br>");
-        for(count = 0; count < 10; count++){
-            document.write("count: " + count + "<br>");
+        // var count;
+        // document.write("starting count: " + count + "<br>");
+        // for(count = 0; count < 10; count++){
+        //     document.write("count: " + count + "<br>");
+        // }
+        // document.write("loop stopped!"+ "<br>");
+        // let age=20;
+        // if(age>=18){
+        //     document.write("you are an adult");
+        // }
+        // else{
+        //     document.write("you are not an adult");
+        // }
+        function myFunction(){
+            alert("Hello World!");
         }
-        document.write("loop stopped!"+ "<br>");
-        let age=20;
-        if(age>=18){
-            document.write("you are an adult");
-        }
-        else{
-            document.write("you are not an adult");
+        function sayHello(name,age){
+            document.write(name + " is " + age + " years old.");    
         }
     </script>
+    <p>click the following button to call the function</p>
+    <form>
+        <input type="button" onclick="sayHello('Aryan',19)" value="say hello">
+    </form>
+    <button onclick="myFunction()">Try it</button>
 </body>
 </html>
