@@ -41,8 +41,8 @@ console.log("Welcome to JavaScript");
 //     console.log("person details:"+x+":"+person[x])
 // }
 
-// let y=0;
-// while(y<10){
-//     console.log(x);
-//     y++;
-// }
+let y=0;
+while(y<10){
+    console.log(x);
+    y++;
+}
