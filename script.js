@@ -73,3 +73,6 @@ person2.address={};
 person2.address.street="road";
 person2['address']['flatNo']=33;
 console.log(person2)
+//difference between object and array
+//object is unordered collection of data and array is an ordered collection of data
+// in array we use square brackets [] and in object we use curly braces {}
