@@ -47,32 +47,36 @@ console.log("Welcome to JavaScript");
 //     y++;
 // }
 
-function add(a,b){
-    console.log(a+b);
-}
-add(10,20);
-//arrow function
-var add2=(a,b)=>{
-    console.log(a+b);
-}
-add2(30,40);
-var person={
-    name: 'JOHN MAC',
-    age: 30,
-    isMarried:true,
-    address:{
-        street:'cadgg'
-    }
-}
-console.log(person)
-var person2=new Object();
-person2.name='Aryan Gupta';
-person2.age=19;
-person2.isMarried=false;
-person2.address={};
-person2.address.street="road";
-person2['address']['flatNo']=33;
-console.log(person2)
+// function add(a,b){
+//     console.log(a+b);
+// }
+// add(10,20);
+// //arrow function
+// var add2=(a,b)=>{
+//     console.log(a+b);
+// }
+// add2(30,40);
+// var person={
+//     name: 'JOHN MAC',
+//     age: 30,
+//     isMarried:true,
+//     address:{
+//         street:'cadgg'
+//     }
+// }
+// console.log(person)
+// var person2=new Object();
+// person2.name='Aryan Gupta';
+// person2.age=19;
+// person2.isMarried=false;
+// person2.address={};
+// person2.address.street="road";
+// person2['address']['flatNo']=33;
+// console.log(person2)
 //difference between object and array
 //object is unordered collection of data and array is an ordered collection of data
 // in array we use square brackets [] and in object we use curly braces {}
+
+var myInfo= new Array();
+var myInfo1= Array();
+console.log(myInfo,myInfo1);
